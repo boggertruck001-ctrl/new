@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Georgia', serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+/* GENERAL */
+.section {
+  padding: 80px 10%;
+}
+
+.dark {
+  background: #1c1c1c;
+  color: #fff;
+}
+
+.light {
+  background: #e9e4dc;
+  color: #111;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.reverse {
+  direction: rtl;
+}
+
+.reverse .text {
+  direction: ltr;
+}
+
+/* TEXT */
+.text h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.text p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+.number {
+  font-size: 60px;
+  color: #ccc;
+}
+
+/* BUTTONS */
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #cbbba0;
+  cursor: pointer;
+}
+
+.dark-btn {
+  background: #1c1c1c;
+  color: #fff;
+}
+
+/* IMAGES */
+.image img {
+  width: 100%;
+  max-width: 350px;
+}
+
+/* AUDIT */
+.audit {
+  background: #2a2a2a;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.audit h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.form input {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+}
+
+.form button {
+  padding: 10px 15px;
+}
+
+/* MEET */
+.meet {
+  background: #f5f2ec;
+  padding: 80px 10%;
+}
+
+.meet span {
+  font-family: cursive;
+  font-size: 28px;
+}
